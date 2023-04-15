@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+    height: 55px;
+    display: flex;
+    flex-flow: row-reverse;
+    background-color: #383851;
+}
+
+.nav ul {
+    display: flex;
+    margin-right: 750px;
+}
+
+.nav ul li {
+    margin: 15px 20px;
+    color: white;
+    height: 55px;
+    list-style: none;
+    align-self: stretch;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+li a:hover {
+    background-color: rgb(221, 69, 69);
+
+    color: black;
+}
+
+.tap {
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    margin-left: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section .soft {
+    margin-left: 30%;
+}
